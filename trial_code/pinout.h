@@ -34,7 +34,7 @@
 #define ARM_DIR_PIN_PIN      D5
 #define ARM_STEP_PIN_PIN     D4 
 #define PAT_EXHALE_VLV_PIN   D3
-#define PAT_EXHALE_VLV_PIN   D2
+#define PAT_INHALE_VLV_PIN   D2
 #define TX_PIN               D1
 #define RX_PIN               D0
 
