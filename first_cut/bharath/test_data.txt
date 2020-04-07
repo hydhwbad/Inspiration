@@ -1,0 +1,50 @@
+Tests on MPX5100DP
+===========
+
+Test Data
+water height: 36.5cm
+
+Reading #1
+1. 39 min: Open reading
+2. 57 max
+===========
+18 counts in terms of 1024 based counting
+
+Reading #2
+1. 39 min
+2. 59 max
+
+But there is drift: over time (1 min or so) reading reduces: Why? leaks??
+
+
+==================================================
+Reading #3:
+
+1. 38/39 min
+2. 64 max
+steady
+
+====================================
+Reading #4
+
+1. 39 min
+2. 64 max
+3. Can go to 69 or 72 if you move the pipe into water very rapidly.
+
+=====================
+Date: 6-April-2019
+Data tested by: Bharath
+
+
+Description of Test Setup
+
+Test setup:
+P2 end of MX5100DP open to air
+P1 end of MX5100DP has a tube that connects to a  pipe inserted into water.
+Pipe is straightened by being taped to a metal rod.
+Transparent drum of water is filled up. 
+P1 end is put into water and slowly brought to the bottom.
+min reading is open to atmosphere.
+max reading is at bottom.
+
+
